@@ -1,5 +1,11 @@
 # Optimization of Ridge Regression problem. Implementation of different optimization techniques
 
-The ridge regression problem is formulated as an optimization problem without constraints as:
+First, the problem is solved using Scipy library. Later, the techniques mentioned below are fully implemented and tested:
 
-$$\alpha_{0}=0$$
+* Gradient method
+* Newton method
+* Quasi-Newton method
+* Coordinate Descent method
+* Stochastic Gradient method
+* Mini Batch Gradient method
+* Stochastic Gradient with Momentum method
